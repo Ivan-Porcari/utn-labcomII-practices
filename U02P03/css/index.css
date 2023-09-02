@@ -1,5 +1,4 @@
-<style>
-* {
+<style>* {
     box-sizing: boder-box;
 }
 
@@ -69,8 +68,9 @@ footer {
 
     nav,
     main,
-    .rigth {
+    .right {
         width: 100%;
     }
 }
+
 </style>

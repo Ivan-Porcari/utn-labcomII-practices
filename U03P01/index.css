@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    size: 24px;
+    color: #242424;
+    font-weight: 900;
+}
+
+h2 {
+    size: 20px;
+    color: #606060;
+    font-weight: 800;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul {
+    font-family: monospace;
+    size: 18px;
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid blue;
+    max-width: 40%; 
+}
+
+ul li a {
+    font-weight: bold;
+    color:orange;
+    text-decoration: underline;
+    
+}
+
+
+/* usar clase en nequen y rio negro para ponerle el color verde*/

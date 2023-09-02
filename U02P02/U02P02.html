@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U02P02</title>
+
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Basic Chart</h1>
+
+    <!-- EJEMPLO DE TABLA BÁSICA -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Year</th>
+                <th>Plate</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Nissan</td>
+                <td>Sentra</td>
+                <td>2021</td>
+                <td>AF 770 AA</td>
+            </tr>
+
+            <tr>
+                <td>Honda</td>
+                <td>Civic</td>
+                <td>2019</td>
+                <td>AG 450 AZ</td>
+            </tr>
+
+            <tr>
+                <td>Mitsubishi</td>
+                <td>Lancer</td>
+                <td>2022</td>
+                <td>AR 420 PP</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- EJEMPLO DE TABLA COMPLEJA -->
+
+    <h1>Complex Chart</h1>
+
+        <table>
+            <b><caption>Guest List</caption></b>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Check-in Date</th>
+                    <th>Check-out Date</th>
+                    <th>Room taken</th>
+                    <th>Reserved Vehicle</th>
+                </tr>
+
+                <tbody>
+                    <tr>
+                        <td>Ivan Porcari</td>
+                        <td colspan="2" rowspan="2">02-09</td>
+                        <td rowspan="2">
+                            <a href="https://www.rostower.com.ar/habitaciones/#deluxe">King</a>
+                        </td>
+                        <td rowspan="2">Motorbike</td>
+                    </tr>
+
+                    <tr>
+                        <td>Florencia Hernandez</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thomas Ledesma</td>
+                        <td>03-09</td>
+                        <td>05-09</td>
+                       <td>
+                            <a href="https://www.rostower.com.ar/habitaciones/#deluxe">Deluxe</a>
+                       </td>
+                        <td>Bike</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Jordan Pradenas</td>
+                        <td colspan="2">04-09</td>
+                        <td>
+                            <a href="https://www.rostower.com.ar/habitaciones/#deluxe">Standar</a>
+                        </td>
+                        <td>None</td>
+                    </tr>
+                   
+                    <tr>
+                        <td>Alejandro Lioy</td>
+                        <td>01-09</td>
+                        <td>04-09</td>
+                        <td>
+                            <a href="https://www.rostower.com.ar/habitaciones/#deluxe">Executive</a>
+                        </td>
+                        <td>Car</td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Free rooms 2 </td>
+                        <td colspan="2">Free cars 1</td>
+                        <td>Free bikes 0</td>
+                    </tr>
+                </tfoot>
+            </thead>
+
+
+
+        </table>
+
+
+
+</body>
+
+</html>
